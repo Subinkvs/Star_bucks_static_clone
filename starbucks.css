@@ -1,0 +1,746 @@
+body{
+    margin:0;
+    margin-top: 0;
+    margin-right: 0;
+    height:2200px;
+}
+
+.head{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.first-section{
+ 
+    width:700px;
+    height: 80px;
+ 
+    margin-left: 100px;
+}
+
+.first-section img{
+    width:40px;
+    height:40px;
+
+}
+.container p{
+   
+    color: white;
+  
+}
+.container1{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 60px;
+    align-items: center;
+  
+    width: 600px;
+    height: 70px;
+    margin-left: 25px;
+}
+.second-section{
+    width:400px;
+    height:80px;
+  
+    margin-left: 190px;
+}
+.container2{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border:1px solid rgb(232, 221, 221);
+    width: 230px;
+    height: 30px;
+    border-radius: 90px;
+    margin-top: 18px;
+    padding-left: 15px;
+    padding-top: 5px;
+    
+}
+.container2 img{
+    width:20px;
+    height:20px;
+    background-color: white;
+}
+.container2 #input{
+    border:2px solid white;
+    width:200px;
+}
+.container2 #input{
+    position: absolute;
+    font-weight: 100;
+    font-size: 12px;
+    color: rgb(255, 247, 247);
+}
+.account img{
+    width:32px;
+    height:32px;
+    margin-left: 330px;
+}
+.first-section p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+    font-weight: 300;
+    margin-top: -10px;
+}
+.home{
+   margin-top: -10px;
+   margin-right: -5px;
+   border-bottom: 2px solid green;
+   height: 45px;
+}
+.container3{
+    display: grid;
+    grid-template-columns: auto auto;
+    white-space: nowrap;
+    align-items: center;
+    width:100%;
+    height: 80px;
+  
+    background-color: #1c2e27;
+}
+.line1 p{
+    color:#f9f9f9;
+    font-size: 20px;
+    font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight:300;
+}
+.line1{
+    margin-left: 125px;
+    margin-top: -10px;
+}
+.line1 p{
+    font-weight: 300;
+}
+.line2{
+    margin-left: 600px;
+    width: 80px;
+    height: 10px;
+    border-radius: 30px;
+    border:1px solid white;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+}
+.picture-grid img{
+    width: 108px;
+    height: 108px;
+    border-radius: 54px;
+}
+.picture-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    width:100%;
+    height: 200px;
+  
+}
+.container-grid p{
+    font-size: 25px;
+}
+.quotes{
+    margin-left: 125px;
+    margin-bottom: -75px;
+}
+.quotes p{
+    color:#1e3932;
+    font-weight: 700;
+    font-family:  SoDoSans_Bold,Helvetica,sans-serif!important;
+}
+.picture-grid p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 14px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-ser;
+    color:#212529;
+    font-weight: 500;
+}
+.quotes2 p{
+    color:#1e3932;
+    font-weight: 700;
+    font-family:  SoDoSans_Bold,Helvetica,sans-serif!important;
+    font-size: 25px;
+
+}
+.card-grid2{
+    width:100%;
+    height:350px;
+    background-color:rgb(237,235,233);
+    margin-top: 20px;
+}
+.quotes2{
+    display: inline-block;
+    margin-left: 125px;
+    margin-top: 10px;
+    
+}
+.para-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: first baseline;
+}
+.para-flex img{
+    width:57px;
+    height:70px;
+    margin-left: 40px;
+    margin-top: -15px;
+}
+.view{
+    margin-top: -10px;
+    margin-left: 975px;
+    font-size: 12.8px;
+    color: #00754A;
+    font-family:SoDoSans_Semibold,Helvetica,sans-serif ;
+    font-weight:700;
+}
+.picture-para-grid{
+    width:410px;
+    height:160px;
+    border:1px solid rgb(205, 198, 198);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    padding-top: 5px;
+    background-color: white;
+
+}
+.card1{
+    width:1320px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 110px;
+  
+}
+.upper-grid{
+    display: flex;
+    flex-direction: row;
+    width:410;
+    height:100px;
+}
+  
+.lower-grid{
+    width:410;
+    height:32px;
+   
+}
+.upper-grid img{
+    width:80px;
+    height:80px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    
+}
+#pic{
+    border-radius: 20px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+  
+    margin-left: 10px;
+
+}
+.para-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+.para-grid img{
+    width:16px;
+    height:16px;
+}
+.para1{
+    font-size: 14px;
+    margin-top: -25px;
+    margin-left: 10px;
+}
+.para1 p{
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif!important;
+    color:#000;
+    font-weight: 550;
+}
+.calorie{
+    width:70px;
+    height:8.8px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.calorie p{
+    font-size: 9px;
+    white-space: nowrap;
+    color:#6C757D;
+    font-family:Pike_Regular,Helvetica,sans-serif!important;
+}
+.lower-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 12px;
+}
+.lower-grid img{
+    width:20px;
+    height:20px;
+    font-size: 14;
+}
+.number span{
+    font-size: 12px;
+}
+.number p{
+    color: #000;
+    font-weight: 600;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+}
+.number{
+    margin-top: -4px;
+}
+.item{
+    margin-left: 220px;
+    width:96px;
+    height:25px;
+  
+    padding-bottom: 12px;
+    border-radius: 48px;
+    background-color: #00754A;
+}
+.item p{
+    font-size: 12px;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-top: -40px;
+    color:white;
+    font-weight: 600;
+}
+
+.starbucks-grid{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width:1280px;
+    height:255px;
+    margin-top:200px;
+    margin-left: 110px;
+    background-color: #198754;
+    border-radius: 20px;
+   
+    
+}
+.starbucks{
+    position: relative;
+    width:153.4px;
+    height:240px;
+    border-radius: 20px;
+    background-color: #198754;
+    
+}
+.starbucks img{
+    width:100px;
+    height:239.21px;
+    margin-top: 10px;
+   
+    
+}
+.stargrid{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    background-color: #198754;
+
+}
+.star{
+    position:relative;
+   
+    width:767.04px;
+    height: 30px;
+    font-size: 14px;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+}
+.star1{
+    position:relative;
+    font-weight: 700;
+    width:767.04px;
+    height: 40.28px;
+    font-size: 20px;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+}
+.star2{
+    position:relative;
+   
+    width:767.04px;
+    height: 30px;
+    font-size: 14px;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+
+}
+.star3{
+    width:767.04px;
+    height: 30px;
+}
+.star4{
+    position:relative;
+ 
+    width:767.04px;
+    height: 65.28px;
+    font-size: 12px;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+
+}
+.star p{
+    position:absolute;
+    bottom:1px;
+}
+.star1 p{
+    position: absolute;
+    bottom:1px;
+    left:1px;
+}
+.star2 p{
+    position: absolute;
+    bottom:1px;
+    left:1px;
+}
+.star4 p{
+    position: absolute;
+    bottom:30px;
+    left:1px;
+}
+.star4 img{
+    position: absolute;
+    display: inline-block;
+    width:20px;
+    height:20px;
+    top:20px;
+    background-color: #198754;
+    
+
+}
+.star4 #num{
+    position: absolute;
+    top:10px;
+    left:15px;
+    
+}
+#num{
+    font-size: 14px;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+}
+#num span{
+    font-size: 12px;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+}
+.stargrid p{
+    color: white;
+}
+.know{ 
+    width:150px;
+    height:49px;
+    padding-left: 70px;
+    border-radius: 50px;
+    color:black;
+    background-color: white;
+}
+.know p{
+    font-size: 13px;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+    font-weight: 550;
+}
+.starbucks-grid .know{
+    position:absolute;
+    left: 1020px;
+    bottom: 25px;
+}
+.picture-background{
+    width:100%;
+    height:500px;
+    background-color: rgb(237,235,233);
+    margin-top: 80px;
+}
+.picture-background{
+    display:flex;
+    flex-direction: column;
+}
+.para-flexed{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+   column-gap: 600px;
+}
+.picture-para1{
+    margin-left: -50px;
+}
+.picture-para1 p{
+    font-size: 24px;
+    font-family:SoDoSans_Light,Helvetica,sans-serif!important;
+    color:#1E3932;
+    font-weight: 600;
+}
+.picture-para2 p{
+    font-size: 12.8px;
+    font-family:SoDoSans_Light,Helvetica,sans-serif!important;
+    color:#00754A;
+    font-weight: 550;
+}
+.starbucks-environment{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    width: 1320px;
+    height:372px;
+    border: 10px solid black;
+    border-radius: 5px;
+    margin-left: 110px;
+    background-color: #000;
+     
+}
+.env1{
+    width:1280px;
+    height:336px;
+    font-size: 28px;
+    font-family:SoDoSans_Light,Helvetica,sans-serif!important ;
+    margin-top: 220px;
+}
+.env2{
+    width:896px;
+    height:21px;
+}
+.env{
+    width:8px;
+    height:4px;
+    margin-bottom: -100px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+.env3{
+    width:200px;
+    height:25px;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+.starbucks-environment .env1{
+    position:absolute;
+    top:-40px;
+    left:30px;
+}
+.starbucks-environment .env2{
+    position:absolute;
+    bottom:100px;
+    left:30px;
+}
+.starbucks-environment .env3{
+    position:absolute;
+    top: 300px;
+    left:30px
+}
+.starbucks-environment .env{
+    position:absolute;
+    left: 30px;
+    top:15px;
+}
+.env1 p{
+    color: #FFFFFF;
+    font-family:SoDoSans_Light,Helvetica,sans-serif!important;
+}
+.env2 p{
+    color: #FFFFFF;
+    font-family:SoDoSans_Light,Helvetica,sans-serif!important;
+    font-size: 14px;
+}
+.env3 p{
+    font-size: 12px;
+    font-family:SoDoSans_Light,Helvetica,sans-serif!important;
+    font-weight: 600;
+    padding-left: 65px;
+    padding-bottom: 65px;
+    padding-top: -100px;
+}
+.env3{
+    position: relative;
+}
+.env3 p{
+    position: absolute;
+    top:2px;
+}
+.card-image{
+    height:372px;
+}
+.starbucks-footer{
+    position:relative;
+    width:100%;
+    height:500px;
+  
+    margin-top: 80px;
+    background-color: #0E382C;
+}
+.footer-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1320px;
+    height:277.6px;
+  
+}
+.starbucks-footer .footer-grid{
+    position:absolute;
+    top: 60px;
+    left: 110px;
+}
+.footer-grid1{
+    width:219.99px;
+    height:277.6px;
+    
+}
+.footer-grid2{
+    display: flex;
+    flex-direction: column;
+
+    width:219.99px;
+    height:277.6px;
+  
+}
+.footer-grid3{
+    display: flex;
+    flex-direction: column;
+    width:219.99px;
+    height:277.6px;
+  
+}
+.footer-grid4{
+    display:flex;
+    flex-direction: column;
+    width:219.99px;
+    height:277.6px;
+   
+}
+.footer-grid5{
+    display: flex;
+    flex-direction: column;
+    width:153px;
+    height:277.6px;
+  
+}
+.footer-grid6{
+    width:268px;
+    height:277.6px;
+   
+}
+.footer-grid1 img{
+    width:62px;
+    height:62px;
+    border-radius: 31px;
+    margin-top: 15px;
+}
+.icon-grid{
+    display:flex;
+    flex-direction: row;
+    column-gap: 16px;
+    align-items: center;
+}
+.icon-grid img{
+    width:35px;
+    height:35px;
+}
+.footer-grid6{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footer-grid6 img{
+    width:194px;
+    height:62px;
+    margin-left: 75px;
+    margin-top: 20px;
+   
+}
+.footer-grid p{
+font-family:SoDoSans_Light,Helvetica,sans-serif!important;
+}
+.header{
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-para{
+    font-size: 14px;
+}
+.footer-grided{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width:1320px;
+    height:42.8px;
+    border-top: 1px solid white;
+}
+.starbucks-footer .footer-grided{
+    position:absolute;
+    top: 385px;
+    left:110px;
+}
+.footer-flex{
+    width:112.5px;
+    height:18px;
+    font-size: 12px;
+    font-family:SoDoSans_Light,Helvetica,sans-serif!important;
+    padding-bottom: 10px;
+    
+}
+.footer-copyright{
+    width:439.74px;
+    height:18px;
+    font-size: 9.6px;
+    font-family:SoDoSans_Light,Helvetica,sans-serif!important;
+}
+.footer-flexed{
+    width:456.74px;
+    height:18px;
+    font-size: 12px;
+    font-family:SoDoSans_Light,Helvetica,sans-serif!important;
+    padding-bottom: 10px;
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:439.74px;
+    height:18px;
+    margin-left: 90px;
+}
+.starbucks-footer p{
+    color:white;
+}
+#andriod{
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
